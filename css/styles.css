@@ -196,7 +196,7 @@ html {
 }
 
 nav li a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -267,7 +267,7 @@ footer{
   animation: slideBg 20s linear infinite 0s;
   animation-timing-function: ease-in-out;
   background-image:linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url("../Assets/cable1.jpg");
-  
+  background-color: #353534;
 }
 
 @keyframes  slideBg{
@@ -301,8 +301,11 @@ footer{
  
 }
 
+
+
 .intro{
   padding-top: 45px;
+  
 }
 
 .maneno{
@@ -418,7 +421,12 @@ padding-bottom:50px ;
   padding: 25px;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: larger;
+  
 }
+
+/* .business{
+  background-color: #353534 ;
+} */
 
 .email{
   padding-top: 30px;
@@ -468,9 +476,9 @@ hr.style-one {
   background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
 
-body{
+/* body{
   background-color: #F5EEF8;
-}
+} */
 
 .ome, .bout, .tact, .lery{
   font-family: 'Crimson Text', serif;
