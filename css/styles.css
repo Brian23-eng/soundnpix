@@ -233,9 +233,7 @@ hr.rine{
   border-top:1px solid white;
 }
 
-/* footer{
-  padding-top: 60px;
-} */
+
 
 .down{
   padding-top: 30px;
@@ -416,8 +414,8 @@ padding-bottom:50px ;
 
 .emr{
   padding: 25px;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: larger;
+  font-family: 'Roboto', sans-serif;
+  font-size: x-small;
   color: white;
   
 }
@@ -588,5 +586,11 @@ hr.style-one {
 .ars{
   color: #C65105;
 }
+
+.cust, .more{
+  text-transform: initial;
+  font-size: 25px;
+}
+
 
 
