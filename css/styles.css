@@ -414,10 +414,15 @@ padding-bottom:50px ;
 
 .emr{
   padding: 25px;
-  font-family: 'Roboto', sans-serif;
-  font-size: x-small;
+  font-family: 'Roboto', sans-serif!important;
+  font-size: x-small!important;
   color: white;
-  
+}
+
+.ness{
+  font-family: 'Roboto', sans-serif!important;
+  font-size: large!important;
+  color: white;
 }
 
 
@@ -471,7 +476,8 @@ hr.style-one {
 
 
 .ome, .bout, .tact, .lery{
-  font-family: 'Crimson Text', serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
 }
 
 .evacu,.smart1, .rium, .cab, .ment, .prof, .sonos, .polka, .sonic{
@@ -590,6 +596,20 @@ hr.style-one {
 .cust, .more{
   text-transform: initial;
   font-size: 25px;
+}
+
+.more{
+  color: black!important;
+  font-family: 'Roboto', sans-serif!important;
+
+}
+.same{
+  font-family: 'Roboto', sans-serif!important;
+  color: black!important;
+}
+
+.trek{
+  padding-top: 30px;
 }
 
 
