@@ -343,13 +343,13 @@ hr.rine{
 .why{
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #C65105;
 }
 
 .smart,.evacute,.audit, .cable,.enter,.music{
   display: none;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: large;
  
 }
@@ -399,16 +399,16 @@ padding-top: 50px;
 padding-bottom:50px ;
 }
 
-.what{
+.what, .team{
   padding-top: 10px;
   padding-bottom: 10px;  
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #C65105;
 }
 .entertainment{
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #C65105;
 }
 
@@ -453,14 +453,14 @@ padding-bottom:50px ;
 .gall{
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #C65105;
 }
 
 .profile{
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #C65105;
 }
 
@@ -481,51 +481,51 @@ hr.style-one {
 }
 
 .evacu,.smart1, .rium, .cab, .ment, .prof, .sonos, .polka, .sonic{
-  font-family: 'Cinzel', serif;
+  font-family: 'Roboto', sans-serif;
   color: #DABD06;
 }
 
 .head1{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .cust, .feed, .market, .wor, .drop, .give{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .part, .lor{
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: large;
 }
 .sent{
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: larger;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
 }
 
 .retail{
-  font-family: 'Crimson Text', serif;
+  font-family: 'Roboto', sans-serif;
   color:#C65105;
 }
 
 .ltd{
-  font-family: 'Abel', sans-serif;
-  font-size: large;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
   color:#C5C1BE;
   
 }
 
 .modal-title{
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto', sans-serif;
   color:#C65105;
 }
 
 .modal-body{
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 
 .modal-footer button{
-  font-family: 'Teko', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: large;
 }
 
@@ -540,7 +540,7 @@ hr.style-one {
 .este{
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #C65105;
 }
 
