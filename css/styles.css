@@ -180,17 +180,6 @@ html {
 }
 
 
-
-/* .navbar-brand {
-  padding-top: 15px;
-  margin-bottom: 5px;
-} */
-
-/* #brandName{
-  background-color: #111;
-} */
-
-
 .navbar-brand:hover {
   color: black;
 }
@@ -244,9 +233,9 @@ hr.rine{
   border-top:1px solid white;
 }
 
-footer{
+/* footer{
   padding-top: 60px;
-}
+} */
 
 .down{
   padding-top: 30px;
@@ -305,7 +294,10 @@ footer{
 
 .intro{
   padding-top: 45px;
-  
+}
+
+.backy{
+  background-color: #20201D;
 }
 
 .maneno{
@@ -334,18 +326,18 @@ footer{
 
 .andish, .cro, .cri, .cra, .cru{
   background-color: transparent;
-  color: black ;
+  color: white ;
   padding: 10%;
 }
 
 .cre{
   background-color: transparent;
-  color: black ;
+  color: white;
   padding: 5%;
 }
 
 .do{
-  background-color: #C1BBB8;
+  background-color: #20201D;
   padding: 15px;
   color: black;
 }
@@ -361,6 +353,11 @@ footer{
   display: none;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: large;
+ 
+}
+
+.nyum, .high, .map, .desk, .musi, .horn{
+  color: #C65105;
 }
 
 .about{
@@ -421,12 +418,10 @@ padding-bottom:50px ;
   padding: 25px;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: larger;
+  color: white;
   
 }
 
-/* .business{
-  background-color: #353534 ;
-} */
 
 .email{
   padding-top: 30px;
@@ -476,9 +471,6 @@ hr.style-one {
   background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
 
-/* body{
-  background-color: #F5EEF8;
-} */
 
 .ome, .bout, .tact, .lery{
   font-family: 'Crimson Text', serif;
@@ -592,4 +584,5 @@ hr.style-one {
 .slick-initialized .slick-slide{
   display: block;
 }
+
 
