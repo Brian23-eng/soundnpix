@@ -593,9 +593,13 @@ hr.style-one {
   color: #C65105;
 }
 
-.cust, .more{
+.cust, .more, .lore{
   text-transform: initial;
   font-size: 25px;
+}
+
+.lore{
+  color: black;
 }
 
 .more{
