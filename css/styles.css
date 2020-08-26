@@ -176,13 +176,13 @@ hr.rine{
   font-size: 20px;
 }
 
-#social i{
+/* #social i{
   color: white;
 }
 
 #social i:hover{
   color: #DABD06;
-}
+} */
 
 .kwanza{
   padding-bottom: 25px;
@@ -491,6 +491,27 @@ hr.style-one {
 .real{
   background-color: #20201D;
 }
+
+.twitter{
+  content: '\f081';
+  color: #1da1f2;
+}
+
+.facebook{
+  content: '\f082';
+  color:#21519B;
+}
+
+.youtube{
+  content: '\f166';
+  color: #ff0000;
+}
+
+.linkedin{
+  content: '\f08c';
+  color:#21519B;
+}
+
 
 
 
