@@ -465,9 +465,17 @@ hr.style-one {
   color: #C65105;
 }
 
-.cust, .more, .lore{
+ .more, .lore{
   text-transform: initial;
   font-size: 15px;
+}
+
+.both{
+  color: white;
+  padding-bottom: 20px;
+  /* padding-top: 15px; */
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
 }
 
 .lore{
@@ -510,6 +518,11 @@ hr.style-one {
 .linkedin{
   content: '\f08c';
   color:#21519B;
+}
+
+.bran{
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
 }
 
 
