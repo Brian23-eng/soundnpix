@@ -467,7 +467,7 @@ hr.style-one {
 
 .cust, .more, .lore{
   text-transform: initial;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .lore{
@@ -486,6 +486,10 @@ hr.style-one {
 
 .trek{
   padding-top: 30px;
+}
+
+.real{
+  background-color: #20201D;
 }
 
 
