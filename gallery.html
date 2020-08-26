@@ -293,18 +293,6 @@
               <h3 class="retail">Careers</h3>
               <p class="ltd">We're always looking for the best and brightest people to join our team. If you possess a skill that could benefit us, kindly send your CV and portfolio to jobs@entertainmentmedia.com</p>
 
-              <!-- <div class="">
-                <ul class="list-unstyled list-inline text-center py-2">
-                  <li class="list-inline-item">
-                    <h5 class="mb-1">Send Us A Mail</h5>
-                  </li>
-                  <li class="list-inline-item" id="footer-button">
-                    <a href="#registerModal" data-toggle="modal" class="btn btn-outline-white">Send Mail</a>
-                  </li>
-                </ul>
-      
-              </div> -->
-
             </div>
     
             <div class="col-md-4">
@@ -324,62 +312,6 @@
           </div>
         </footer>
 
-        <!-- <div class="container">
-          <div id="registerModal" class="modal">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="mx-auto font-weight-bold">Send Us A Mail</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-      
-                </div>
-                <div class="modal-body">
-                  <div class="card row">
-                    <div class="card-body px-lg-5 pt-0 col-md-10 mx-auto">
-                      
-                      <!-- Form -->
-                      <!-- <form class="text-center" id="my-form" action="https://formspree.io/myynngqn" method="POST"> -->
-      
-                        <!-- Name -->
-                  <!-- <div class="md-form mt-3">
-                      <input type="text" id="materialContactFormName" class="form-control">
-                      <label for="materialContactFormName" name = "name">Name</label>
-                  </div> -->
-      
-                        <!-- E-mail -->
-                      <!-- <div class="md-form">
-                        <input type="email" name="email" id="materialContactFormEmail" class="form-control"/>
-                        <label for="materialContactFormEmail">E-mail</label>
-                      </div> -->
-      
-                      
-                      <!-- message -->
-                      <!-- <div>
-                        <textarea type="text" name="message" id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
-                      </div> -->
-                      
-                      <!-- send button -->
-<!--       
-                      <button id="my-form-button" class="btn btn-warning btn-rounded white-text z-depth-0 my-4 waves-effect" >Send</button>
-      
-                      <p id="my-form-status"></p>
-                    </form>
-        
-      
-                    </div>
-      
-                  </div>
-      
-                </div>
-      
-              </div>
-      
-            </div>
-      
-          </div>
-      
-        </div> --> -->
-      
       </div>
         
       </div>
@@ -414,57 +346,7 @@
     new WOW().init();
     </script>
 
-    <script>
-      window.addEventListener("DOMContentLoaded", function() {
-
-        // get the form elements defined in your form HTML above
-        
-        var form = document.getElementById("my-form");
-        var button = document.getElementById("my-form-button");
-        var status = document.getElementById("my-form-status");
-
-        // Success and Error functions for after the form is submitted
-        
-        // function success() {
-        //   form.reset();
-        //   button.style = "display: none ";
-        //   status.innerHTML = "Thanks!";
-        // }
-
-        function error() {
-          status.innerHTML = "Oops! There was a problem.";
-        }
-
-        // handle the form submission event
-
-        form.addEventListener("submit", function(ev) {
-          ev.preventDefault();
-          var data = new FormData(form);
-          ajax(form.method, form.action, data, success, error);
-        });
-      });
-      
-      // helper function for sending an AJAX request
-
-      function ajax(method, url, data, success, error) {
-        var xhr = new XMLHttpRequest();
-        xhr.open(method, url);
-        xhr.setRequestHeader("Accept", "application/json");
-        xhr.onreadystatechange = function() {
-          if (xhr.readyState !== XMLHttpRequest.DONE) return;
-          if (xhr.status === 200) {
-            success(xhr.response, xhr.responseType);
-          } else {
-            error(xhr.status, xhr.response, xhr.responseType);
-          }
-        };
-        xhr.send(data);
-      }
-    </script>
-
   </section>
-
-    
-    
+   
 </body>
 </html>
