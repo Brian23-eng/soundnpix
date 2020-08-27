@@ -109,6 +109,7 @@ hr.rine{
 .chako{
   width:100%;
   height: 70vh;
+  /* object-fit: cover; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
